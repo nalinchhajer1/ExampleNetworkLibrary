@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20179BCDD45FAD287101096B /* libPods-TescoNetworkLibraryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38471F1CBEAB4841BA866A39 /* libPods-TescoNetworkLibraryTests.a */; };
+		86D40B688158BB926336662F /* libPods-TescoNetworkLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B23A50B1CB196A0E5983F92B /* libPods-TescoNetworkLibrary.a */; };
+		D4A3C5C75480CE098E2A9C80 /* libPods-TescoNetworkLibraryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8720F778D78155B1373347E8 /* libPods-TescoNetworkLibraryUITests.a */; };
 		F5C5155A1D7C11BC00BD50FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515591D7C11BC00BD50FE /* main.m */; };
 		F5C5155D1D7C11BC00BD50FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5155C1D7C11BC00BD50FE /* AppDelegate.m */; };
 		F5C515601D7C11BC00BD50FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5155F1D7C11BC00BD50FE /* ViewController.m */; };
@@ -15,6 +18,12 @@
 		F5C515681D7C11BC00BD50FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C515661D7C11BC00BD50FE /* LaunchScreen.storyboard */; };
 		F5C515731D7C11BC00BD50FE /* TescoNetworkLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515721D7C11BC00BD50FE /* TescoNetworkLibraryTests.m */; };
 		F5C5157E1D7C11BC00BD50FE /* TescoNetworkLibraryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5157D1D7C11BC00BD50FE /* TescoNetworkLibraryUITests.m */; };
+		F5C5158E1D7C1CD300BD50FE /* TescoNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5158D1D7C1CD300BD50FE /* TescoNetworkConfiguration.m */; };
+		F5C515911D7C1D8100BD50FE /* TescoNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515901D7C1D8100BD50FE /* TescoNetworkManager.m */; };
+		F5C515921D7C32C800BD50FE /* TescoNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515901D7C1D8100BD50FE /* TescoNetworkManager.m */; };
+		F5C515931D7C32C900BD50FE /* TescoNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515901D7C1D8100BD50FE /* TescoNetworkManager.m */; };
+		F5C515941D7C32CB00BD50FE /* TescoNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5158D1D7C1CD300BD50FE /* TescoNetworkConfiguration.m */; };
+		F5C515951D7C32CC00BD50FE /* TescoNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5158D1D7C1CD300BD50FE /* TescoNetworkConfiguration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38471F1CBEAB4841BA866A39 /* libPods-TescoNetworkLibraryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TescoNetworkLibraryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AF171BCEC7DA4972ECD56A /* Pods-TescoNetworkLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TescoNetworkLibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TescoNetworkLibrary/Pods-TescoNetworkLibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		836E00A53FC36DC42EAE8F90 /* Pods-TescoNetworkLibraryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TescoNetworkLibraryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TescoNetworkLibraryUITests/Pods-TescoNetworkLibraryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8720F778D78155B1373347E8 /* libPods-TescoNetworkLibraryUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TescoNetworkLibraryUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9284121F1FB8CF3FB2E8045C /* Pods-TescoNetworkLibraryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TescoNetworkLibraryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TescoNetworkLibraryUITests/Pods-TescoNetworkLibraryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8BC399476590D488FED0424 /* Pods-TescoNetworkLibraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TescoNetworkLibraryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TescoNetworkLibraryTests/Pods-TescoNetworkLibraryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB24CBF86AB56B32A79968E2 /* Pods-TescoNetworkLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TescoNetworkLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-TescoNetworkLibrary/Pods-TescoNetworkLibrary.release.xcconfig"; sourceTree = "<group>"; };
+		B23A50B1CB196A0E5983F92B /* libPods-TescoNetworkLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TescoNetworkLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C080A4A6475B72F239EBBE13 /* Pods-TescoNetworkLibraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TescoNetworkLibraryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TescoNetworkLibraryTests/Pods-TescoNetworkLibraryTests.release.xcconfig"; sourceTree = "<group>"; };
 		F5C515551D7C11BC00BD50FE /* TescoNetworkLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TescoNetworkLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C515591D7C11BC00BD50FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5C5155B1D7C11BC00BD50FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +69,10 @@
 		F5C515791D7C11BC00BD50FE /* TescoNetworkLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TescoNetworkLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C5157D1D7C11BC00BD50FE /* TescoNetworkLibraryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TescoNetworkLibraryUITests.m; sourceTree = "<group>"; };
 		F5C5157F1D7C11BC00BD50FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C5158C1D7C1CD300BD50FE /* TescoNetworkConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TescoNetworkConfiguration.h; path = TescoNetworkLibrary/TescoNetworkConfiguration.h; sourceTree = "<group>"; };
+		F5C5158D1D7C1CD300BD50FE /* TescoNetworkConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TescoNetworkConfiguration.m; path = TescoNetworkLibrary/TescoNetworkConfiguration.m; sourceTree = "<group>"; };
+		F5C5158F1D7C1D8100BD50FE /* TescoNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TescoNetworkManager.h; path = TescoNetworkLibrary/TescoNetworkManager.h; sourceTree = "<group>"; };
+		F5C515901D7C1D8100BD50FE /* TescoNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TescoNetworkManager.m; path = TescoNetworkLibrary/TescoNetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D40B688158BB926336662F /* libPods-TescoNetworkLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20179BCDD45FAD287101096B /* libPods-TescoNetworkLibraryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A3C5C75480CE098E2A9C80 /* libPods-TescoNetworkLibraryUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DED4F5A196EDEB66544E1A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71AF171BCEC7DA4972ECD56A /* Pods-TescoNetworkLibrary.debug.xcconfig */,
+				AB24CBF86AB56B32A79968E2 /* Pods-TescoNetworkLibrary.release.xcconfig */,
+				A8BC399476590D488FED0424 /* Pods-TescoNetworkLibraryTests.debug.xcconfig */,
+				C080A4A6475B72F239EBBE13 /* Pods-TescoNetworkLibraryTests.release.xcconfig */,
+				836E00A53FC36DC42EAE8F90 /* Pods-TescoNetworkLibraryUITests.debug.xcconfig */,
+				9284121F1FB8CF3FB2E8045C /* Pods-TescoNetworkLibraryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5595180697588AB590D6BAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B23A50B1CB196A0E5983F92B /* libPods-TescoNetworkLibrary.a */,
+				38471F1CBEAB4841BA866A39 /* libPods-TescoNetworkLibraryTests.a */,
+				8720F778D78155B1373347E8 /* libPods-TescoNetworkLibraryUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F5C5154C1D7C11BC00BD50FE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +133,8 @@
 				F5C515711D7C11BC00BD50FE /* TescoNetworkLibraryTests */,
 				F5C5157C1D7C11BC00BD50FE /* TescoNetworkLibraryUITests */,
 				F5C515561D7C11BC00BD50FE /* Products */,
+				0DED4F5A196EDEB66544E1A7 /* Pods */,
+				F5595180697588AB590D6BAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +151,7 @@
 		F5C515571D7C11BC00BD50FE /* TescoNetworkLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				F5C5158B1D7C1BB400BD50FE /* TescoNetworkLib */,
 				F5C5155B1D7C11BC00BD50FE /* AppDelegate.h */,
 				F5C5155C1D7C11BC00BD50FE /* AppDelegate.m */,
 				F5C5155E1D7C11BC00BD50FE /* ViewController.h */,
@@ -140,6 +191,17 @@
 			path = TescoNetworkLibraryUITests;
 			sourceTree = "<group>";
 		};
+		F5C5158B1D7C1BB400BD50FE /* TescoNetworkLib */ = {
+			isa = PBXGroup;
+			children = (
+				F5C5158C1D7C1CD300BD50FE /* TescoNetworkConfiguration.h */,
+				F5C5158D1D7C1CD300BD50FE /* TescoNetworkConfiguration.m */,
+				F5C5158F1D7C1D8100BD50FE /* TescoNetworkManager.h */,
+				F5C515901D7C1D8100BD50FE /* TescoNetworkManager.m */,
+			);
+			name = TescoNetworkLib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5C515821D7C11BC00BD50FE /* Build configuration list for PBXNativeTarget "TescoNetworkLibrary" */;
 			buildPhases = (
+				4CCC7E9A7EFE3176CEDBA92D /* Check Pods Manifest.lock */,
 				F5C515511D7C11BC00BD50FE /* Sources */,
 				F5C515521D7C11BC00BD50FE /* Frameworks */,
 				F5C515531D7C11BC00BD50FE /* Resources */,
+				FF177E9788FAAE63EEC25287 /* Embed Pods Frameworks */,
+				0FC4761185E78336765A56FC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5C515851D7C11BC00BD50FE /* Build configuration list for PBXNativeTarget "TescoNetworkLibraryTests" */;
 			buildPhases = (
+				FC3C6C4EDFCF61A6B3BE5FBD /* Check Pods Manifest.lock */,
 				F5C5156A1D7C11BC00BD50FE /* Sources */,
 				F5C5156B1D7C11BC00BD50FE /* Frameworks */,
 				F5C5156C1D7C11BC00BD50FE /* Resources */,
+				958816FB58C0483F49023F91 /* Embed Pods Frameworks */,
+				76B1398E213E0571709A36B6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5C515881D7C11BC00BD50FE /* Build configuration list for PBXNativeTarget "TescoNetworkLibraryUITests" */;
 			buildPhases = (
+				7A5FD597C0F5A18C113B7B37 /* Check Pods Manifest.lock */,
 				F5C515751D7C11BC00BD50FE /* Sources */,
 				F5C515761D7C11BC00BD50FE /* Frameworks */,
 				F5C515771D7C11BC00BD50FE /* Resources */,
+				532020C7D57FC2AB7031B643 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,13 +335,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FC4761185E78336765A56FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TescoNetworkLibrary/Pods-TescoNetworkLibrary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CCC7E9A7EFE3176CEDBA92D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		532020C7D57FC2AB7031B643 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TescoNetworkLibraryUITests/Pods-TescoNetworkLibraryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76B1398E213E0571709A36B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TescoNetworkLibraryTests/Pods-TescoNetworkLibraryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A5FD597C0F5A18C113B7B37 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		958816FB58C0483F49023F91 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TescoNetworkLibraryTests/Pods-TescoNetworkLibraryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3C6C4EDFCF61A6B3BE5FBD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF177E9788FAAE63EEC25287 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TescoNetworkLibrary/Pods-TescoNetworkLibrary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5C515511D7C11BC00BD50FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C515911D7C1D8100BD50FE /* TescoNetworkManager.m in Sources */,
 				F5C515601D7C11BC00BD50FE /* ViewController.m in Sources */,
 				F5C5155D1D7C11BC00BD50FE /* AppDelegate.m in Sources */,
+				F5C5158E1D7C1CD300BD50FE /* TescoNetworkConfiguration.m in Sources */,
 				F5C5155A1D7C11BC00BD50FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +476,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C515731D7C11BC00BD50FE /* TescoNetworkLibraryTests.m in Sources */,
+				F5C515941D7C32CB00BD50FE /* TescoNetworkConfiguration.m in Sources */,
+				F5C515921D7C32C800BD50FE /* TescoNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +486,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C5157E1D7C11BC00BD50FE /* TescoNetworkLibraryUITests.m in Sources */,
+				F5C515951D7C32CC00BD50FE /* TescoNetworkConfiguration.m in Sources */,
+				F5C515931D7C32C900BD50FE /* TescoNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +610,7 @@
 		};
 		F5C515831D7C11BC00BD50FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71AF171BCEC7DA4972ECD56A /* Pods-TescoNetworkLibrary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TescoNetworkLibrary/Info.plist;
@@ -422,6 +622,7 @@
 		};
 		F5C515841D7C11BC00BD50FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB24CBF86AB56B32A79968E2 /* Pods-TescoNetworkLibrary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TescoNetworkLibrary/Info.plist;
@@ -433,6 +634,7 @@
 		};
 		F5C515861D7C11BC00BD50FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BC399476590D488FED0424 /* Pods-TescoNetworkLibraryTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TescoNetworkLibraryTests/Info.plist;
@@ -445,6 +647,7 @@
 		};
 		F5C515871D7C11BC00BD50FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C080A4A6475B72F239EBBE13 /* Pods-TescoNetworkLibraryTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TescoNetworkLibraryTests/Info.plist;
@@ -457,6 +660,7 @@
 		};
 		F5C515891D7C11BC00BD50FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836E00A53FC36DC42EAE8F90 /* Pods-TescoNetworkLibraryUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TescoNetworkLibraryUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -468,6 +672,7 @@
 		};
 		F5C5158A1D7C11BC00BD50FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9284121F1FB8CF3FB2E8045C /* Pods-TescoNetworkLibraryUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TescoNetworkLibraryUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +701,7 @@
 				F5C515841D7C11BC00BD50FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5C515851D7C11BC00BD50FE /* Build configuration list for PBXNativeTarget "TescoNetworkLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +710,7 @@
 				F5C515871D7C11BC00BD50FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5C515881D7C11BC00BD50FE /* Build configuration list for PBXNativeTarget "TescoNetworkLibraryUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +719,7 @@
 				F5C5158A1D7C11BC00BD50FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

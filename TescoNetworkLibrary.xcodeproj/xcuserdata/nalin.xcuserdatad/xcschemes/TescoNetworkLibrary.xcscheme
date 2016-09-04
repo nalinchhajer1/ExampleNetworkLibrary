@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5C515541D7C11BC00BD50FE"
+               BuildableName = "TescoNetworkLibrary.app"
+               BlueprintName = "TescoNetworkLibrary"
+               ReferencedContainer = "container:TescoNetworkLibrary.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5C5156D1D7C11BC00BD50FE"
+               BuildableName = "TescoNetworkLibraryTests.xctest"
+               BlueprintName = "TescoNetworkLibraryTests"
+               ReferencedContainer = "container:TescoNetworkLibrary.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5C515781D7C11BC00BD50FE"
+               BuildableName = "TescoNetworkLibraryUITests.xctest"
+               BlueprintName = "TescoNetworkLibraryUITests"
+               ReferencedContainer = "container:TescoNetworkLibrary.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F5C515541D7C11BC00BD50FE"
+            BuildableName = "TescoNetworkLibrary.app"
+            BlueprintName = "TescoNetworkLibrary"
+            ReferencedContainer = "container:TescoNetworkLibrary.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F5C515541D7C11BC00BD50FE"
+            BuildableName = "TescoNetworkLibrary.app"
+            BlueprintName = "TescoNetworkLibrary"
+            ReferencedContainer = "container:TescoNetworkLibrary.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F5C515541D7C11BC00BD50FE"
+            BuildableName = "TescoNetworkLibrary.app"
+            BlueprintName = "TescoNetworkLibrary"
+            ReferencedContainer = "container:TescoNetworkLibrary.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
