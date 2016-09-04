@@ -19,10 +19,9 @@ In you app delegate method, initialize the network library using
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     TescoNetworkConfiguration *config = [TescoNetworkConfiguration defaultNetworkConfiguration];
-        config.delegate = self;
-        config.baseURL = @"http://localhost:3030";
-        self.networkManager = [TescoNetworkManager sharedManager];
-        [self.networkManager setNetworkConfiguration:config];
+    config.delegate = self;
+    config.baseURL = @"http://localhost:3030";
+    [[TescoNetworkManager sharedManager] setNetworkConfiguration:config];
     return YES;
 }
 
