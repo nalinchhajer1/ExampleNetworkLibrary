@@ -18,12 +18,12 @@
 		F5C515681D7C11BC00BD50FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C515661D7C11BC00BD50FE /* LaunchScreen.storyboard */; };
 		F5C515731D7C11BC00BD50FE /* TescoNetworkLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515721D7C11BC00BD50FE /* TescoNetworkLibraryTests.m */; };
 		F5C5157E1D7C11BC00BD50FE /* TescoNetworkLibraryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5157D1D7C11BC00BD50FE /* TescoNetworkLibraryUITests.m */; };
-		F5C5158E1D7C1CD300BD50FE /* TescoNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5158D1D7C1CD300BD50FE /* TescoNetworkConfiguration.m */; };
-		F5C515911D7C1D8100BD50FE /* TescoNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515901D7C1D8100BD50FE /* TescoNetworkManager.m */; };
-		F5C515921D7C32C800BD50FE /* TescoNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515901D7C1D8100BD50FE /* TescoNetworkManager.m */; };
-		F5C515931D7C32C900BD50FE /* TescoNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515901D7C1D8100BD50FE /* TescoNetworkManager.m */; };
-		F5C515941D7C32CB00BD50FE /* TescoNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5158D1D7C1CD300BD50FE /* TescoNetworkConfiguration.m */; };
-		F5C515951D7C32CC00BD50FE /* TescoNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5158D1D7C1CD300BD50FE /* TescoNetworkConfiguration.m */; };
+		F5C5159A1D7C50DF00BD50FE /* TescoNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515971D7C50DF00BD50FE /* TescoNetworkConfiguration.m */; };
+		F5C5159B1D7C50DF00BD50FE /* TescoNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515991D7C50DF00BD50FE /* TescoNetworkManager.m */; };
+		F5C5159C1D7C510B00BD50FE /* TescoNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515971D7C50DF00BD50FE /* TescoNetworkConfiguration.m */; };
+		F5C5159D1D7C510C00BD50FE /* TescoNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515971D7C50DF00BD50FE /* TescoNetworkConfiguration.m */; };
+		F5C5159E1D7C510E00BD50FE /* TescoNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515991D7C50DF00BD50FE /* TescoNetworkManager.m */; };
+		F5C5159F1D7C510F00BD50FE /* TescoNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C515991D7C50DF00BD50FE /* TescoNetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +69,10 @@
 		F5C515791D7C11BC00BD50FE /* TescoNetworkLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TescoNetworkLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C5157D1D7C11BC00BD50FE /* TescoNetworkLibraryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TescoNetworkLibraryUITests.m; sourceTree = "<group>"; };
 		F5C5157F1D7C11BC00BD50FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5C5158C1D7C1CD300BD50FE /* TescoNetworkConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TescoNetworkConfiguration.h; path = TescoNetworkLibrary/TescoNetworkConfiguration.h; sourceTree = "<group>"; };
-		F5C5158D1D7C1CD300BD50FE /* TescoNetworkConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TescoNetworkConfiguration.m; path = TescoNetworkLibrary/TescoNetworkConfiguration.m; sourceTree = "<group>"; };
-		F5C5158F1D7C1D8100BD50FE /* TescoNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TescoNetworkManager.h; path = TescoNetworkLibrary/TescoNetworkManager.h; sourceTree = "<group>"; };
-		F5C515901D7C1D8100BD50FE /* TescoNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TescoNetworkManager.m; path = TescoNetworkLibrary/TescoNetworkManager.m; sourceTree = "<group>"; };
+		F5C515961D7C50DF00BD50FE /* TescoNetworkConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TescoNetworkConfiguration.h; path = TescoNetworkLib/TescoNetworkConfiguration.h; sourceTree = SOURCE_ROOT; };
+		F5C515971D7C50DF00BD50FE /* TescoNetworkConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TescoNetworkConfiguration.m; path = TescoNetworkLib/TescoNetworkConfiguration.m; sourceTree = SOURCE_ROOT; };
+		F5C515981D7C50DF00BD50FE /* TescoNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TescoNetworkManager.h; path = TescoNetworkLib/TescoNetworkManager.h; sourceTree = SOURCE_ROOT; };
+		F5C515991D7C50DF00BD50FE /* TescoNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TescoNetworkManager.m; path = TescoNetworkLib/TescoNetworkManager.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,10 +194,10 @@
 		F5C5158B1D7C1BB400BD50FE /* TescoNetworkLib */ = {
 			isa = PBXGroup;
 			children = (
-				F5C5158C1D7C1CD300BD50FE /* TescoNetworkConfiguration.h */,
-				F5C5158D1D7C1CD300BD50FE /* TescoNetworkConfiguration.m */,
-				F5C5158F1D7C1D8100BD50FE /* TescoNetworkManager.h */,
-				F5C515901D7C1D8100BD50FE /* TescoNetworkManager.m */,
+				F5C515961D7C50DF00BD50FE /* TescoNetworkConfiguration.h */,
+				F5C515971D7C50DF00BD50FE /* TescoNetworkConfiguration.m */,
+				F5C515981D7C50DF00BD50FE /* TescoNetworkManager.h */,
+				F5C515991D7C50DF00BD50FE /* TescoNetworkManager.m */,
 			);
 			name = TescoNetworkLib;
 			sourceTree = "<group>";
@@ -463,10 +463,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C515911D7C1D8100BD50FE /* TescoNetworkManager.m in Sources */,
+				F5C5159B1D7C50DF00BD50FE /* TescoNetworkManager.m in Sources */,
 				F5C515601D7C11BC00BD50FE /* ViewController.m in Sources */,
 				F5C5155D1D7C11BC00BD50FE /* AppDelegate.m in Sources */,
-				F5C5158E1D7C1CD300BD50FE /* TescoNetworkConfiguration.m in Sources */,
+				F5C5159A1D7C50DF00BD50FE /* TescoNetworkConfiguration.m in Sources */,
 				F5C5155A1D7C11BC00BD50FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,9 +475,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C5159E1D7C510E00BD50FE /* TescoNetworkManager.m in Sources */,
+				F5C5159C1D7C510B00BD50FE /* TescoNetworkConfiguration.m in Sources */,
 				F5C515731D7C11BC00BD50FE /* TescoNetworkLibraryTests.m in Sources */,
-				F5C515941D7C32CB00BD50FE /* TescoNetworkConfiguration.m in Sources */,
-				F5C515921D7C32C800BD50FE /* TescoNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,9 +485,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C5159F1D7C510F00BD50FE /* TescoNetworkManager.m in Sources */,
+				F5C5159D1D7C510C00BD50FE /* TescoNetworkConfiguration.m in Sources */,
 				F5C5157E1D7C11BC00BD50FE /* TescoNetworkLibraryUITests.m in Sources */,
-				F5C515951D7C32CC00BD50FE /* TescoNetworkConfiguration.m in Sources */,
-				F5C515931D7C32C900BD50FE /* TescoNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

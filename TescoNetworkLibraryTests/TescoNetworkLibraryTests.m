@@ -94,41 +94,6 @@
 }
 
 
-- (void)testExample {
-    XCTestExpectation *expectation = [self expectationWithDescription:@"login auth"];
-    [UMKMockURLProtocol expectMockHTTPGetRequestWithURL:[NSURL URLWithString:@"http://localhost:3030/login?token=abcd1234"] responseStatusCode:200 responseJSON:@{@"token":@"acadad2533ha92h"}];
-    
-    NSURL *URL = [NSURL URLWithString:@"http://localhost:3030/login?token=abcd1234"];
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:URL];
-    request.HTTPMethod = @"GET";
-    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-    configuration.protocolClasses = @[ [UMKMockURLProtocol class] ];
-    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
-    
-    NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
-        if (error) {
-            NSLog(@"Error: %@", error);
-            XCTAssertNil(error, @"Error is not nil");
-            [expectation fulfill];
-        } else {
-            NSLog(@"%@ %@", response, responseObject);
-            XCTAssertNotNil(responseObject, @"responseObject is nil");
-            [expectation fulfill];
-        }
-    }];
-    [dataTask resume];
-    [self waitForExpectationsWithTimeout:10.0 handler:nil];
-    
-}
-
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
-
 #pragma mark - private methods
 
 - (void)performLoginForUserWithToken:(NSString *)token onCompleton:(void (^)(void))completionHandler {
